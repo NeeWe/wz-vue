@@ -51,7 +51,7 @@ module.exports = {
         open: true, //配置自动启动浏览器
         proxy: {
             '/api': {
-                target: 'http://localhost:80/',   // 需要请求的地址
+                target: 'http://localhost:8090/',   // 需要请求的地址
                 ws: false,
                 changeOrigin: true,  // 是否跨域
                 pathRewrite: {
